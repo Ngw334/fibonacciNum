@@ -6,4 +6,6 @@ function fterm(n){
   else return fterm(n-1) + fterm(n-2);
 }
 
-console.log(fterm(1))
+console.log(fterm(10));
+
+// => 55
